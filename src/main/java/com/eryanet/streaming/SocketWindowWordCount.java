@@ -1,4 +1,4 @@
-package com.eryanet;
+package com.eryanet.streaming;
 
 import org.apache.flink.api.common.functions.FlatMapFunction;
 import org.apache.flink.api.common.functions.ReduceFunction;
@@ -27,7 +27,7 @@ public class SocketWindowWordCount {
             hostname = params.has("hostname") ? params.get("hostname") : "localhost";
             port = params.getInt("port");
         } catch (Exception e) {
-            System.err.println("No port specified. Please run 'com.eryanet.SocketWindowWordCount " +
+            System.err.println("No port specified. Please run 'com.eryanet.streaming.SocketWindowWordCount " +
                     "--hostname <hostname> --port <port>', where hostname (localhost by default) " +
                     "and port is the address of the text server");
             System.err.println("To start a simple text server, run 'netcat -l <port>' and " +
