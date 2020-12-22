@@ -11,7 +11,7 @@ import org.apache.flink.streaming.api.windowing.time.Time
  * @CreateTime: 2020-12-21 14:17
  * @Description:
  */
-object SocketWindowWordCount {
+object SocketWindowWordCountScala {
 
   def main(args: Array[String]): Unit = {
     val tool: ParameterTool = ParameterTool.fromArgs(args)

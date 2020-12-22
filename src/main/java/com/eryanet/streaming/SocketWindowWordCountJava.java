@@ -15,7 +15,7 @@ import org.apache.flink.util.Collector;
  * @CreateTime: 2020-07-09 14:58
  * @Description:
  */
-public class SocketWindowWordCount {
+public class SocketWindowWordCountJava {
 
     public static void main(String[] args) throws Exception {
 
