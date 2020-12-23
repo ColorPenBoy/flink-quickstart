@@ -1,0 +1,8 @@
+who 1
+hello 2
+your 1
+my 1
+name 2
+nginx 2
+is 3
+what 1
